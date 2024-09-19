@@ -1,0 +1,40 @@
+body {
+    width: 80%;
+    margin: 0 auto !important;
+    background-color: azure;
+   
+}
+
+h1 {
+    color: red;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myForm {
+    margin-top: 10vh;
+
+}
+
+.flexParent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: fit-content;
+}
+
+img {
+    position: absolute;
+    bottom: 0; 
+    z-index: -1; 
+    width: 45%;
+}
+@media screen and (min-width: 480px){
+    body{
+    background-color:lightgreen;
+    }
+}
